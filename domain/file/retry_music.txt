@@ -1,0 +1,245 @@
+query	service	action	params
+
+
+播放周董的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '周董的歌', 'norm': '周董的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+
+放一首劲爆音乐	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '放一首劲爆音乐'}
+
+
+
+
+
+
+
+
+听力宏的歌	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '听力宏的歌'}
+
+
+
+
+
+
+
+
+播放周杰伦的叶惠美专辑的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '叶惠美专辑的歌', 'norm': '叶惠美专辑的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}, 'artists': {'orgin': '[{"artist":"周杰伦"}]', 'norm': '[{"artist":"周杰伦"}]', 'logic': '0', 'paramType': '{"artist":"@sys.entity.MUSIC_ARTIST"}', 'code': 0}}
+
+
+
+
+
+
+播放周杰伦蔡依林的歌/播放周杰伦合唱的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '蔡依林的歌/播放周杰伦合唱的歌', 'norm': '蔡依林的歌/播放周杰伦合唱的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}, 'artists': {'orgin': '[{"artist":"周杰伦"}]', 'norm': '[{"artist":"周杰伦"}]', 'logic': '0', 'paramType': '{"artist":"@sys.entity.MUSIC_ARTIST"}', 'code': 0}}
+
+
+
+
+
+
+
+播放将播放歌曲江南style 	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '将播放歌曲江南style', 'norm': '将播放歌曲江南style', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+
+对象我要听潇洒走一回 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '对象我要听潇洒走一回'}
+
+二宝要听牛叉本命年 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '二宝要听牛叉本命年'}
+
+笨蛋给我放一首秋殇别恋 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '笨蛋给我放一首秋殇别恋'}
+
+唱一个西藏的歌呗 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '唱一个西藏的歌呗'}
+
+
+
+
+
+
+嗯你为我唱一首不要让梦醒来吧 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '嗯你为我唱一首不要让梦醒来吧'}
+
+
+
+
+播放音乐随机的	RMUSIC_1129	PlayByName	{'name': {'orgin': '随机的', 'norm': '随机的', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+
+
+
+
+唱一会儿金志文的歌 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '唱一会儿金志文的歌'}
+
+
+
+
+
+播放经典的老歌 	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '经典的老歌', 'norm': '经典的老歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+
+
+唱国歌	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '唱国歌'}
+
+
+
+
+播放一首韩文歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '一首韩文歌', 'norm': '一首韩文歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+布丁你给我唱一首数鸭子 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '布丁你给我唱一首数鸭子'}
+
+
+
+布丁你给我来一首催眠曲	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '催眠曲', 'norm': '催眠曲', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+来首最近比较火的歌手的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '最近比较火的歌手的歌', 'norm': '最近比较火的歌手的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+
+
+dc-Talk的音乐作品 	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': 'dc-talk的音乐作品'}
+
+
+
+
+我想听因你而在这张专辑的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '因你而在这张专辑的歌|换一首', 'norm': '因你而在这张专辑的歌|换一首', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+我要听一首很嗨的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '一首很嗨的歌', 'norm': '一首很嗨的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+弹一首钢琴曲	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '弹一首钢琴曲'}
+
+
+
+
+点播东风破	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '点播东风破'}
+
+
+
+
+
+唱个名歌|换个摇滚	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '唱个名歌|换个摇滚'}
+
+
+
+
+
+
+播放作为背景音乐的粤语歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '作为背景音乐的粤语歌', 'norm': '作为背景音乐的粤语歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+播放歌词是大王叫我来巡山的歌 	RMUSIC_1129	PlayByName	{'name': {'orgin': '词是大王叫我来巡山的歌', 'norm': '词是大王叫我来巡山的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+来首最近比较火的歌手的歌|不听蔡依琳的	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '最近比较火的歌手的歌|不听蔡依琳的', 'norm': '最近比较火的歌手的歌|不听蔡依琳的', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+来一首热歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '热歌|换鹿晗的|换一首', 'norm': '热歌|换鹿晗的|换一首', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+我要听适女孩子听的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '适女孩子听的歌', 'norm': '适女孩子听的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+我要听甘世佳做词薛之谦演唱的歌	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '甘世佳做词薛之谦演唱的歌', 'norm': '甘世佳做词薛之谦演唱的歌', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+我要听鹿晗唱的春节期间的爱你一万年	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '鹿晗唱的春节期间的爱你一万年', 'norm': '鹿晗唱的春节期间的爱你一万年', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+给我播放外国背景钢琴曲	RMUSIC_1129	PlayByTags	{'artist': {'orgin': '外国背景', 'norm': '外国背景', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}, 'strongtag': {'orgin': '[{"instrument":"钢琴曲"}]', 'norm': '[{"instrument":"钢琴"}]', 'logic': '0', 'paramType': '{"instrument":"@sys.entity.MUSIC_TAG_INSTRUMENT"}', 'code': 0}}
+
+
+
+
+唱郁可唯的国语国歌思慕	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '唱郁可唯的国语国歌思慕'}
+
+
+
+
+
+播放睡前安静的民谣	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '睡前安静的民谣', 'norm': '睡前安静的民谣', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+我要听甘世佳做词李荣浩作曲的歌	RMUSIC_1129	PlayByCategory	{'composer': {'orgin': '甘世佳做词李荣浩', 'norm': '甘世佳做词李荣浩', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+
+
+
+
+
+播放周杰伦的发如	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '发如', 'norm': '发如', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}, 'artists': {'orgin': '[{"artist":"周杰伦"}]', 'norm': '[{"artist":"周杰伦"}]', 'logic': '0', 'paramType': '{"artist":"@sys.entity.MUSIC_ARTIST"}', 'code': 0}}
+
+
+
+
+我要搜歌词|有多少梦想在自由的飞翔	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '我要搜歌词|有多少梦想在自由的飞翔'}
+
+
+
+
+播放中国好声音的歌   RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '中国好声音的歌|换一首|换一首', 'norm': '中国好声音的歌|换一首|换一首', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}}
+
+
+
+心情很好来首开心的歌曲|是的	{'status': {'code': 501, 'errorType': 'not_supported'}, 'query': '心情很好来首开心的歌曲|是的'}
+
+
+
+
+
+我要听周杰伦的东风|不要	RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '东风|不要', 'norm': '东风|不要', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}, 'artists': {'orgin': '[{"artist":"周杰伦"}]', 'norm': '[{"artist":"周杰伦"}]', 'logic': '0', 'paramType': '{"artist":"@sys.entity.MUSIC_ARTIST"}', 'code': 0}}
+
+
+
+
+
+我要听周杰伦的东风  RMUSIC_1129	PlayByAlbum	{'album_name': {'orgin': '东风|好的', 'norm': '东风|好的', 'logic': '', 'paramType': '@sys.not_null', 'code': 0}, 'artists': {'orgin': '[{"artist":"周杰伦"}]', 'norm': '[{"artist":"周杰伦"}]', 'logic': '0', 'paramType': '{"artist":"@sys.entity.MUSIC_ARTIST"}', 'code': 0}}
+
