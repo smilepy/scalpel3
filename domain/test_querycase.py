@@ -1,9 +1,6 @@
 # -*- coding:utf-8 -*-
 import requests
 import json
-import sys
-# reload(sys)
-# sys.setdefaultencoding('utf8')
 
 
 def test_rosai_regression():
@@ -22,27 +19,43 @@ def test_rosai_regression():
                 }
             }
         }
-        f = open("./file/music.txt")
-        f1 = open("./file/musicresult.txt", "a")
+        f = open("./file/music_1206_76.txt")
+        f1 = open("./file/music_1206_76_result.txt", "a")
         f1.write('query'+'\t'+'service'+'\t'+'action'+'\t'+'params'+'\n')
         print('query'+'\t'+'service'+'\t'+'action'+'\t'+'params')
-        i =1
+        i=0
         for line in f:
             if len(line.strip('\n')) > 0:
                     params['query']=line.strip('\n')
+                    if '\t' in line:
+                        splits=line.split('\t')
+                        print(splits[0])
+                        params['query']=splits[0]
                     res = requests.post(url=url, data=json.dumps(params))
                     print(res)
+                    i+=1
                     if res.json()["status"]["code"]==0:
                         if str(res.json()["semantic"]["service"])=='Translator':
                             f1.write(params['query'] +'\t'+str(res.json()["semantic"]["service"])+'\t'+str(res.json()["semantic"]["action"])+'\t' + str(res.json()["result"]["hint"])+'\t'+str(res.json())+'\n')
                             print(params['query'] + '\t'+str(res.json()["semantic"]["service"])+'\t'+str(res.json()["semantic"]["action"])+'\t' + str(res.json()["result"]["hint"])+'\t'+str(res.json()))
                         else:
-                            f1.write(params['query'] + '\t'+str(res.json()["semantic"]["service"])+'\t'+str(res.json()["semantic"]["action"])+'\t' + str(res.json()["semantic"]["params"])+'\n\n')
-                            print(params['query'] + '\t'+str(res.json()["semantic"]["service"])+'\t'+str(res.json()["semantic"]["action"])+'\t' + str(res.json()["semantic"]["params"]))
+
+                            try:
+                                f1.write(params['query'] + '\t' + str(res.json()["semantic"]["service"]) + '\t' + str(
+                                    res.json()["semantic"]["action"]) + '\t' + str(
+                                    res.json()["semantic"]["params"]) + '\n')
+                                print(str(i)+'\t'+params['query'] + '\t' + str(res.json()["semantic"]["service"]) + '\t' + str(
+                                    res.json()["semantic"]["action"]) + '\t' + str(res.json()["semantic"]["params"]))
+                            except KeyError:
+                                f1.write(params['query'] + '\t' + str(res.json()["semantic"]["service"]) + '\t' + str(
+                                    res.json()["semantic"]["action"])  +'\t'+ " has not params "+ '\n')
+                                print(str(i)+'\t'+params['query'] + '\t' + str(res.json()["semantic"]["service"]) + '\t' + str(
+                                    res.json()["semantic"]["action"]) + '\t' + " has not params ")
+
 
                     else:
-                        f1.write(params['query'] + '\t' + str(res.json())+'\n\n')
-                        print(params['query'] + '\t' + str(res.json()))
+                        f1.write(params['query'] + '\t' + str(res.json())+'\n')
+                        print(str(i)+'\t'+params['query'] + '\t' + str(res.json()))
 
         f1.close()
         f.close()
