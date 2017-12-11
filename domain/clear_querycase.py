@@ -11,15 +11,16 @@ def random_int_list(start, stop, length):
   return random_list
 
 def clear_querycase():
-        f = open("./file/musicquery.txt")
-        f1 = open("./output/music_query_1207.0.txt", "a")
+        f = open("./file/RMUSIC_1211_zcm.txt")
+        f1 = open("./output/RMUSIC_1211_zcm.0.txt", "a")
         q_set=set()
         for line in f:
             if len(line.strip('\n')) > 0:
                     query=line.strip('\n')
-                    if '\t' in line:
-                        splits=line.split('\t')
+                    if ' ' in line:
+                        splits=line.split(' ')
                         query=splits[0]
+
                     print(query)
                     q_set.add(query)
 
@@ -33,7 +34,7 @@ def clear_querycase():
         # for i in index_list:
         #     f1.write('"'+query_list[i]+'"'+'\n')
         for line in query_list:
-            f1.write(line+'\n')
+            f1.write('"'+line+'"'+'\n')
         f1.close()
 
 
