@@ -4,7 +4,7 @@ import json
 
 
 def get_dst_resp():
-    url = 'http://192.168.1.41:8081/v3/query?traceId=pypyppypypypypypy12081815'
+    url = 'http://192.168.1.41:8081/v3/query?traceId=pypyppypypypypypy12231750'
     params = {
         "agentId": "1ZmI5ZmQ2MTkzZmE",
         "token": "dee81a6d2edb2593cf344208532424d96647",
@@ -12,7 +12,7 @@ def get_dst_resp():
         "query": "",
         "verbose": True
     }
-    querycase_file = open("./output/music_query_12081348.txt")
+    querycase_file = open("./file/musicquery_12231815.txt")
     # f1 = open("./output/RMusic.1.1_query.txt", "a")
     # f1.write('query'+'\t'+'service'+'\t'+'action'+'\t'+'params'+'\n')
     # print('query'+'\t'+'service'+'\t'+'action'+'\t'+'params')
